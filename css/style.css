@@ -1,5 +1,15 @@
-@media screen and (max-width:992px) {
-    body{
-        background-color: black;
+@media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
     }
-}
+  }
+
+  #welcome-section {
+      position: fixed;
+      height: 100vh;
+  }
+
+  #navbar {
+      position: fixed;
+      top: 0;
+  }
